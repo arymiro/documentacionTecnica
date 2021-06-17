@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,139 @@
     <script type="text/javascript" src="./scripts/documentacion.js"></script>
     <title>Documentación Técnica</title>
 </head>
+
 <body>
-    <main id="main-doc"></main>
+    <main id="main-doc">
+        <h1>JavaScript Documentación</h1>
+        <section class="main-section" id="Introduccion">
+            <header>
+                <h3>Introduccion</h3>
+            </header>
+            <article>
+                <p>JavaScript es un lenguaje de secuencias de comandos orientado a objetos y multiplataforma. Es un
+                    lenguaje pequeño y ligero. Dentro de un entorno de host (por ejemplo, un navegador web), JavaScript
+                    se puede conectar a los objetos de su entorno para proporcionar control programático sobre ellos.
+                </p>
+                <p>JavaScript contiene una biblioteca estándar de objetos, como Array, Date y Math, y un conjunto básico
+                    de elementos del lenguaje como operadores, estructuras de control y declaraciones. Core JavaScript
+                    se puede extender para una variedad de propósitos completándolo con objetos adicionales; por
+                    ejemplo:</p>
+                <ul>
+                    <li>JavaScript del lado del cliente amplía el lenguaje central al proporcionar objetos para
+                        controlar un navegador y su Modelo de objetos de documento (DOM). Por ejemplo, las extensiones
+                        del lado del cliente permiten que una aplicación coloque elementos en un formulario HTML y
+                        responda a los eventos del usuario, como los clics del mouse, la entrada de formularios y la
+                        navegación de la página.</li>
+                    <li>JavaScript del lado del servidor amplía el lenguaje central al proporcionar objetos relevantes
+                        para ejecutar JavaScript en un servidor. Por ejemplo, las extensiones del lado del servidor
+                        permiten que una aplicación se comunique con una base de datos, brinde continuidad de
+                        información de una invocación a otra de la aplicación o realice manipulaciones de archivos en un
+                        servidor.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Que_deberias_ya_saber">
+            <header>
+                <h3>Que deberias ya saber</h3>
+            </header>
+            <article>
+                <p>Esta guía asume que tiene los siguientes conocimientos básicos:</p>
+                <ul>
+                    <li>Comprensión general de Internet y la World Wide Web (WWW).</li>
+                    <li>Buen conocimiento práctico del lenguaje de marcado de hipertexto (HTML).</li>
+                    <li>Alguna experiencia en programación.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="JavaScript_y_Java">
+            <header>
+                <h3>JavaScript y Java</h3>
+            </header>
+            <article>
+                <p>Java y JavaScript son dos lenguajes de programación. Una cosa que tienen en común es que ambos son
+                    lenguajes de programación C, esto significa que están estructurados de la misma manera. Sin embargo,
+                    son muy diferentes en cuanto a su uso y funcionamiento.</p>
+                <p>JavaScript es un lenguaje interpretado, en otras palabras, se lee y traduce línea a línea al mismo
+                    tiempo que se ejecuta el programa. JavaScript se ejecuta esencialmente a través de tu navegador web.
+                </p>
+                <p>Por otro lado, Java es un lenguaje compilado: pasa por una JVM (Java Virtual Machine) para ser
+                    interpretado y traducido al lenguaje de la «máquina».</p>
+            </article>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>
+                <h3>Variables</h3>
+            </header>
+            <article>
+                <p>En javascript se distinguen 5 tipos de variables: de tipo texto (string), número, booleanas , objetos
+                    y funciones.</p>
+                <p>Los textos, números y booleanos son intuitivos. En algún momento de nuestras vidas los hemos visto en
+                    la escuela. Sin embargo los objetos y las funciones no son tan evidentes si nunca has programado.
+                </p>
+
+            </article>
+        </section>
+        <section class="main-section" id="Declaracion_Variables">
+            <header>
+                <h3>Declaracion Variables</h3>
+            </header>
+            <article>
+                <p> Aunque no es obligatorio, se recomienda declarar siempre las variables antes de usarlas en
+                    JavaScript.
+                    Como sabemos esta declaración se hace escribiendo la palabra clave var seguida del nombre de
+                    variable.
+                    También se pueden declarar múltiples variables en una sola línea escribiendo var y a continuación
+                    los
+                    nombres de las variables separados por comas.</p>
+                <p>Por ejemplo podemos declarar:</p>
+                <pre><code>var carros;</code></pre>
+                <pre><code>var motos;</code></pre>
+                <pre><code>var buses;</code></pre>
+                <pre><code>var trenes;</code></pre>
+            </article>
+        </section>
+
+        <section class="main-section" id="Constantes">
+            <header>
+                <h3>Constantes</h3>
+            </header>
+            <p>Una constante es un tipo INMUTABLE, no puede cambiar una vez definida, se usa la palabra const en lugar
+                de var, al igual que let su scope es de bloque, son tipos de sólo lectura y se le debe asignar un valor
+                en el momento de su declaración.</p>
+            <p>Por ejemplo:</p>
+            <pre><code>const PI = 3.14;</code></pre>
+
+        </section>
+
+
+    </main>
+    <nav id="navbar">
+        <header class="nav_header">
+            JavaScript Documentación
+        </header><br>
+        <ul class="navlist">
+            <li>
+                <a class="nav-link" href="#Introduccion">Introduccion</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Que_deberias_ya_saber">Que deberias ya saber</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#JavaScript_y_Java">JavaScript y Java</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Variables">Variables</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Declaracion_Variables">Declaracion Variables</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#Constantes">Constantes</a>
+            </li>
+
+        </ul><br>
+    </nav><br>
 </body>
+
 </html>
